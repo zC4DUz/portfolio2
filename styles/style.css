@@ -15,9 +15,9 @@
     padding: 0;
 } 
 
-/* .cabecalho{
+.cabecalho{
     padding: 2% 0% 0% 15%;
-} */
+}
 
 body{
     box-sizing: border-box;
@@ -28,7 +28,7 @@ body{
 .cabecalho__menu{
     display: flex;
     gap: 80px;
-    padding: 2% 0% 0% 15%;
+    /* padding: 2% 0% 0% 15%; */
 }
 
 
@@ -99,7 +99,7 @@ body{
     font-family: var(--fonte-secundaria);
 }
 
- .apresentacao__links__link:hover{
+ .apresentacao__links__navegacao:hover{
     background-color: var(--cor-hover)
  }
 
@@ -118,9 +118,9 @@ body{
  }
 
  @media (max-width:1200){
-    /* .cabeçalho{
+    .cabeçalho{
     padding: 10%;
-    } */
+    }
 
     .cabecalho__menu {
     justify-content: center;
